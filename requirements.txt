@@ -1,0 +1,4 @@
+fastapi==0.115.*
+requests==2.32.*
+beautifulsoup4==4.12.*
+psycopg[binary]==3.2.*

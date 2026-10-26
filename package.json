@@ -1,0 +1,32 @@
+{
+  "name": "ebay_tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "next-dev": "next dev",
+    "fastapi-dev": "python3 -m uvicorn api.index:app --reload --port 8000",
+    "dev": "concurrently \"npm:next-dev\" \"npm:fastapi-dev\""
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "recharts": "^3.10.1",
+    "swr": "^2.5.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "concurrently": "^10.0.6",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+
+}

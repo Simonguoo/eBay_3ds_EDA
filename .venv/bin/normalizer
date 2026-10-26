@@ -1,4 +1,4 @@
-#!/Users/simonguo/PycharmProjects/Nba_Score_predictor/.venv/bin/python
+#!/Users/simonguo/Desktop/ebay_tracker/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

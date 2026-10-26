@@ -1,4 +1,4 @@
-#!/Users/simonguo/PycharmProjects/Ebay_3ds_EDA/.venv/bin/python
+#!/Users/simonguo/Desktop/ebay_tracker/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
